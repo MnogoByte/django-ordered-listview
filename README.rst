@@ -47,3 +47,12 @@ Customization
 
     fields.html - list of sortable fields
     field.html - order field and state template
+
+3. If you want to ignore null values during sort, add fields to null_ignore_fields.
+
+    class UserListView(OrderedListView):
+        null_ignore_fields = ['quantity']
+
+
+    class UserListView(OrderedListView):
+        null_ignore_fields = '*'  # For all fields

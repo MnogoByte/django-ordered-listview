@@ -3,7 +3,7 @@ from distutils.core import setup
 
 
 setup(name='django-ordered-listview',
-      version='0.0.1',
+      version='0.0.2',
       description='This library is aimed to simplify creation of user sorted lists.',
       author='Alexander Klimenko',
       author_email='alex@erix.ru',
